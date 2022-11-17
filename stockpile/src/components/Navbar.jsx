@@ -1,10 +1,20 @@
-import React from 'react'
+import styled from "styled-components"
+import { stockpile } from "../assets"
+
+const Container = styled.div`
+
+`
+const Logo = styled.img`
+    width: 124px;
+    height: 64px
+`
+const Links = styled.div``
 
 const Navbar = () => {
     return (
-        <div>
-            Navbar
-        </div>
+        <Container>
+            <Logo src={stockpile} />
+        </Container>
     )
 }
 

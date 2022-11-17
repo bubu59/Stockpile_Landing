@@ -15,13 +15,20 @@ import {
 } from './components'
 
 const Container = styled.div`
-  background-color: black
+  background-color: black;
+  height: 100vh
+`
+const Wrapper = styled.div`
+  height: 10vh;
+  width: full
 `
 
 function App() {
   return (
     <Container>
-      <Navbar />
+      <Wrapper>
+        <Navbar />
+      </Wrapper>
     </Container>
   );
 }
